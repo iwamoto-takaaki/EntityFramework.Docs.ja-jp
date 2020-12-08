@@ -170,7 +170,7 @@ Entity Framework Core (EF Core) 単純なログを使用して、アプリケー
 
 クラスは、 <xref:Microsoft.EntityFrameworkCore.DbLoggerCategory> カテゴリを検索するための階層的な API を提供し、文字列をハードコーディングする必要がないことに注意してください。
 
-カテゴリは階層構造であるため、カテゴリを使用するこの例に `Database` は、サブカテゴリのすべてのメッセージ (、、および) が含まれ `Database.Connection` `Database.Command` `Database.Transaction` ます。
+カテゴリは階層構造であるため、カテゴリを使用するこの例に `Database` は、サブカテゴリである`Database.Connection`、`Database.Command`及び`Database.Transaction`のすべてのメッセージが含まれます。
 
 ### <a name="custom-filters"></a>カスタム フィルター
 
