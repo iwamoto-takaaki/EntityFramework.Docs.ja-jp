@@ -143,21 +143,21 @@ Entity Framework Core (EF Core) 単純なログを使用して、アプリケー
 
 すべてのログメッセージは、名前付きの階層 logger カテゴリに割り当てられます。 カテゴリは次のとおりです。
 
-| カテゴリ                                             | [メッセージ]
+| カテゴリ                                                | [メッセージ]
 |:-----------------------------------------------------|-------------------------------------------------
 | Microsoft.EntityFrameworkCore                        | すべての EF Core メッセージ
-| Microsoft EntityFrameworkCore. データベース               | すべてのデータベースの相互作用
-| Microsoft EntityFrameworkCore. Database. Connection    | データベース接続の使用
-| Microsoft EntityFrameworkCore. Database. Command       | データベースコマンドの使用
-| Microsoft EntityFrameworkCore. Database. Transaction   | データベーストランザクションの使用
-| Microsoft EntityFrameworkCore. 更新プログラム                 | エンティティの保存、データベースとのやり取りの除外
-| Microsoft EntityFrameworkCore. Model                  | すべてのモデルとメタデータの相互作用
-| Microsoft EntityFrameworkCore。検証       | モデルの検証
-| Microsoft EntityFrameworkCore. Query                  | クエリ、データベースとのやり取りの除外
-| Microsoft EntityFrameworkCore インフラストラクチャ         | 一般的なイベント (コンテキストの作成など)
-| Microsoft EntityFrameworkCore. スキャフォールディング            | データベースのリバースエンジニアリング
-| Microsoft EntityFrameworkCore. 移行             | 移行
-| Microsoft EntityFrameworkCore. ChangeTracking         | 変更の追跡の相互作用
+| Microsoft EntityFrameworkCore.Database               | すべてのデータベースの相互作用
+| Microsoft EntityFrameworkCore.Database.Connection    | データベース接続の使用
+| Microsoft EntityFrameworkCore.Database.Command       | データベースコマンドの使用
+| Microsoft EntityFrameworkCore.Database.Transaction   | データベーストランザクションの使用
+| Microsoft EntityFrameworkCore.Updata                 | エンティティの保存、データベースとのやり取りの除外
+| Microsoft EntityFrameworkCore.Model                  | すべてのモデルとメタデータの相互作用
+| Microsoft EntityFrameworkCore.Model.Validation       | モデルの検証
+| Microsoft EntityFrameworkCore.Query                  | クエリ、データベースとのやり取りの除外
+| Microsoft EntityFrameworkCore.Infrastructure         | 一般的なイベント (コンテキストの作成など)
+| Microsoft EntityFrameworkCore.Scaffolding            | データベースのリバースエンジニアリング
+| Microsoft EntityFrameworkCore.Migrations             | 移行
+| Microsoft EntityFrameworkCore.ChangeTracking         | 変更の追跡の相互作用
 
 `LogTo` は、1つまたは複数のカテゴリからのメッセージのみをログに記録するように構成できます。 たとえば、データベースの相互作用のみをログに記録するには、次のようにします。
 
